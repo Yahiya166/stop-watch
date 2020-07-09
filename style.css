@@ -1,0 +1,31 @@
+.center {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+h2{
+color: #000000;
+display: inline-block;  
+    width: 80px;
+    background-color:#F0F8FF;
+    margin: 10px; 
+} 
+.Head{
+    margin-top: 50px;
+    
+}
+
+.btn{
+    display: inline-block;
+    margin: 5px;
+    width: 90px;
+}
+
+
+
+
+
+
