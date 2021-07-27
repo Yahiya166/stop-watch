@@ -5,6 +5,7 @@ var msec = 0;
 var minHeading = document.getElementById("min");
 var secHeading = document.getElementById("sec");
 var msecHeading = document.getElementById("msec");
+var head = document.getElementById("btnId");
 
 var interval;
 
@@ -26,12 +27,17 @@ function timer(){
 
 function start(){
     interval = setInterval(timer,10);
-    document.getElementById("btnId").disabled = 'true';
+    head.disabled = 'true';
 }
 
 
 function puase(){
-    clearInterval(interval);
+    if(head.disabled = "true"){
+        clearInterval(interval);
+        head.disabled = head.enabled
+        // interval = setInterval(timer,10);
+    }
+    // document.getElementById("btnId").disabled = 'false';
 }
 
 
@@ -43,6 +49,7 @@ function reset(){
     secHeading.innerHTML = sec;
     msecHeading.innerHTML = msec;
     puase()
+    // document.getElementById("btnId").enable = 'true';
 }
 
 
