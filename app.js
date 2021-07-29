@@ -26,7 +26,7 @@ function timer(){
 }
 
 function start(){
-    interval = setInterval(timer,10);
+    interval = setInterval(timer,1000);
     head.disabled = 'true';
 }
 
